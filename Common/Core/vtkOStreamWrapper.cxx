@@ -23,11 +23,11 @@
 
 #define VTKOSTREAM_OPERATOR(type) \
   vtkOStreamWrapper& vtkOStreamWrapper::operator << (type a) \
-    { this->ostr << a; return *this; }
+    { /*this->ostr << a;*/ return *this; }
 
 #define VTKOSTREAM_OPERATOR_FUNC(arg) \
   vtkOStreamWrapper& vtkOStreamWrapper::operator << (arg) \
-    { this->ostr << a; return *this; }
+    { /*this->ostr << a;*/ return *this; }
 
 //----------------------------------------------------------------------------
 vtkOStreamWrapper::vtkOStreamWrapper(ostream& os): ostr(os)
