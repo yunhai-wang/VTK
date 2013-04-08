@@ -1,0 +1,10 @@
+vtk_module(vtkParallelCore
+  GROUPS
+    StandAlone
+  DEPENDS
+    vtkIOLegacy
+  COMPILE_DEPENDS
+    vtkUtilitiesHashSource
+  TEST_DEPENDS
+    vtkTestingRendering
+  )

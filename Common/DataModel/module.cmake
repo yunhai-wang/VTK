@@ -1,0 +1,16 @@
+vtk_module(vtkCommonDataModel
+  DEPENDS
+    vtkCommonSystem
+    vtkCommonMath
+    vtkCommonMisc
+    vtkCommonTransforms
+  TEST_DEPENDS
+    vtkTestingCore
+    vtkTestingRendering
+    vtkCommonExecutionModel
+    vtkIOGeometry
+    vtkIOLegacy
+    vtkIOXML
+    vtkRenderingCore
+    vtkRenderingOpenGL
+  )
